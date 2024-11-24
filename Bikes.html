@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bikes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    .main1 {
+      display: inline-flex;
+      box-sizing: border-box;
+    }
+
+    .main2 {
+      display: inline-flex;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f7f7f7;
+    }
+    .card {
+      transition: 0.3s;
+      width: fit-content;
+      padding: 10px;
+      justify-content: space-between;
+    }
+
+    .container {
+      text-align: center;
+      background-color: rgb(219, 55, 33);
+      color: white;
+      padding: 2px 16px;
+    }
+
+    .card img:hover {
+      transform: scale(1.1);
+      /* scale zoomin the pic */
+    }
+
+    .card img {
+      height: 200px;
+      width: 350px;
+    }
+  </style>
+  <body>
+    <header>
+      <img src="./img/logo.png" alt="" width="200px" />
+      <nav>
+        <ul>
+          <li><a href="./Home.html">Home</a></li>
+          <li><a href="./Bikes.html">Bikes</a></li>
+          <li><a href="./Rentals.html">Rentals</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+          <li><a href="./index.html">logout</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="main1">
+        <div class="card">
+          <img src="./img/bikes/h2 sx.png" alt="H2" />
+          <div class="container">
+            <h4><b>Kawasaki H2 SX</b></h4>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/bikes/busa.png" alt="busa" />
+          <div class="container">
+            <h4><b>Hayabusa</b></h4>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/bikes/ducati.png" alt="ducati" />
+          <div class="container">
+            <h4><b>Ducati panigale V4</b></h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- ---------------Next line---------------- -->
+
+      <div class="main2">
+        <div class="card">
+          <img src="./img/bikes/hness.png" alt="hness" />
+          <div class="container">
+            <h4><b>Honda Hness 350</b></h4>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/bikes/meteor.png" alt="meteor" />
+          <div class="container">
+            <h4><b>Meteor 650</b></h4>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/bikes/s1000rr.png" alt="S1000RR" />
+          <div class="container">
+            <h4><b>BMW S1000RR</b></h4>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer style="width: 100%">
+      <p>&copy; 2024 Ride your Dream</p>
+    </footer>
+  </body>
+</html>

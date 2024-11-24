@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rentals</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="./img/logo.png" alt="" width="200px" />
+      <nav>
+        <ul>
+          <li><a href="./Home.html">Home</a></li>
+          <li><a href="./Bikes.html">Bikes</a></li>
+          <li><a href="./Rentals.html">Rentals</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+          <li><a href="./index.html">logout</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="rent-bike-section">
+        <h2 style="color: white">Rent Bike</h2>
+        <form>
+          <label>Bike Model:</label>
+          <select
+            id="bike-model"
+            style="
+              outline: none;
+              width: auto;
+              padding: 3px;
+              padding-right: 70px;
+            "
+          >
+            <option>select bike</option>
+            <option>Kawasaki H2 SX</option>
+            <option>Hayabusa</option>
+            <option>BMW S1000RR</option>
+            <option>Meteor 650</option>
+            <option>Ducati Panigale V4</option>
+            <option>Honda Hness 350</option></select
+          ><br /><br />
+          <label>Rental Duration:</label>
+          <input
+            type="number"
+            id="rental-duration"
+            style="outline: none"
+          /><br /><br />
+          <label>Customer Name:</label>
+          <input
+            type="text"
+            id="customer-name"
+            style="outline: none"
+          /><br /><br />
+          <button id="rent-bike-btn">Rent Bike</button>
+          <button id="cancel-rent-btn">Cancel</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Ride your Dream</p>
+    </footer>
+  </body>
+</html>
